@@ -1,1 +1,2 @@
 # Meu primeiro jogo com Pygame
+Nesse projeto estou estudando pygame baseado em uma playlist completa do canal [DaFluffyPotato](https://www.youtube.com/c/DaFluffyPotato/playlists). E lendo a documentação oficial [pygame](https://www.pygame.org/docs/)
