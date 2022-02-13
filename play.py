@@ -166,6 +166,7 @@ while True:  # Loop in game
             if event.key == K_LEFT: moving_left = False
 
     surf = pygame.transform.scale(display, WINDOW_SIZE)
+
     screen.blit(surf, (0, 0))
     pygame.display.update()
     clock.tick(60)  # The amount frames in seconds.
