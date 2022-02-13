@@ -3,16 +3,25 @@ from collision import collision
 
 
 def change_action(action_var, frame, new_value):
+    '''Capture an action.'''
+
     if action_var != new_value:
         action_var = new_value
         frame = 0
 
     return action_var, frame
 
+
 def move(rect, movement, tiles):
     '''Function responsible for the movement.'''
 
-    collision_types = {'top': False, 'bottom': False, 'left': False, 'right': False}
+    collision_types = {}
+
+    collision_types['top'] = False
+    collision_types['bottom'] = False
+    collision_types['left'] = False
+    collision_types['right'] = False
+
     rect.x += movement[0]
     hit_list = collision(rect, tiles)
 

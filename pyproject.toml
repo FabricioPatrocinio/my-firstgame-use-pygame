@@ -7,6 +7,7 @@ authors = ["FabricioPatrocinio <fabricioschiffer@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pygame = "^2.1.2"
+ipython = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
 
