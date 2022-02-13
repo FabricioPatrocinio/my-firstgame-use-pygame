@@ -4,7 +4,10 @@ In this project I'm studying pygame based on a complete playlist of the channel 
 
 And reading the official documentation [pygame](https://www.pygame.org/docs/)
 
-![My animated logo](assets/my_game.jpeg)
+<p align="center">
+  <img src="assets/my_game.jpeg" />
+</p>
+
 #
 ## To test the game
 I'm starting from the point that you use poetry as a dependency manager.
