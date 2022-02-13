@@ -16,5 +16,5 @@ poetry shell
 ```
 Now just run the game:
 ```
-python3 main.py
+python3 play.py
 ```
