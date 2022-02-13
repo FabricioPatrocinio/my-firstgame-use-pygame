@@ -3,12 +3,14 @@ import pygame
 from pygame.locals import *
 
 
+global animation_frames
+
+animation_frames = {}
+
+
 def load_animation(path, frame_durations):
     '''[7,7] animation person.'''
 
-    global animation_frames
-
-    animation_frames = {}
     animation_name = path.split('/')[-1]
     animation_frame_data = []
     n = 0
